@@ -8,7 +8,6 @@
 #SBATCH --time=0-00:05:00                # Time limit days-hrs:min:sec
 #SBATCH --mail-type=ALL --mail-user=sharvey@flatironinstitute.org
 
-
 module load python
 srun hostname
-srun python train_simple_network.py
+srun python helloworld.py
