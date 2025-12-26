@@ -5,7 +5,7 @@ def main():
     string = "Hello, World!"
     print(string)
     # Sample numpy operation
-    array = np.array([1, 2, 3, 4, 5])
+    array = np.array([1, 2, 3, 4, 5, 6])
     A = 2+2
     print("Numpy array:", array)
     np.save('array.npy', array) # Save large outputs to ceph
